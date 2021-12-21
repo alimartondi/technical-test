@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* To hide input number arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Common button style */
+.btn.main-button,
+.btn.second-button {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  transition: 0.4s ease-in-out 0s;
+}
+.btn.main-button:hover,
+.btn.second-button:hover {
+  color: #ffffff;
+}
+.btn.main-button:focus,
+.btn.second-button:focus {
+  box-shadow: none;
+}
+
+.btn.main-button {
+  background-color: #009fff;
+  color: #ffffff;
+}
+.btn.main-button:hover {
+  background-color: #007bc7;
+}
+
+.btn.second-button {
+  background-color: #ec2f4b;
+}
+.btn.second-button:hover {
+  background-color: #ba253c;
+}
+
+/* Common button style breakpoint */
+@media (min-width: 768px) {
+  .btn.main-button,
+  .btn.second-button {
+    padding: 0.7rem 1.5rem;
+  }
+}
