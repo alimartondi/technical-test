@@ -13,3 +13,6 @@ Setelah data dikirim menggunakan HTTP POST Method (fetch), data dikirim atau kel
 Apabila data berhasil di submit, akan muncul alert success, begitu juga ketika gagal
 Ketika proses submit, button send di form question akan menampilkan button dengan sepinner
 Sedangkan button submit di form company profile akan disabled ketika proses pengiriman data
+
+-Deployment
+Website ini bisa di akses secara onlin di link berikut: https://mytechnicaltest.netlify.app/
